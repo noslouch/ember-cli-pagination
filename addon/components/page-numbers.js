@@ -4,8 +4,8 @@ import PageItems from 'ember-cli-pagination/lib/page-items';
 import Validate from 'ember-cli-pagination/validate';
 
 export default Ember.Component.extend({
-  currentPageBinding: "content.page",
-  totalPagesBinding: "content.totalPages",
+  // currentPageBinding: "content.page",
+  // totalPagesBinding: "content.totalPages",
 
   hasPages: Ember.computed.gt('totalPages', 1),
 
